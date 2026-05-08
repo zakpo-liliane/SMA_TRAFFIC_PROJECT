@@ -105,7 +105,7 @@ sim.run()
 ## Auteurs
 
 - Zakpo Liliane
-- Bamba Mariam: `tchewamariam@gmail.com`
+- Bamba Mariam: `tchewamariamb@gmail.com`
 
 ## Limites actuelles
 
