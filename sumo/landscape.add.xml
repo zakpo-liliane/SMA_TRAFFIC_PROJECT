@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <poly id="lagune_ebrie" type="water" color="120,194,221" fill="1" layer="-5.00"
+          shape="195,15 235,18 290,35 335,68 420,115 560,170 560,270 440,255 350,230 270,206 210,168 178,128 180,70"/>
+    <poly id="lagune_inner_wave" type="water" color="145,208,230" fill="1" layer="-4.90"
+          shape="230,35 275,48 320,73 398,118 512,168 520,210 432,204 352,182 280,152 234,110"/>
+    <poly id="quartier_yopougon" type="district" color="232,219,196" fill="1" layer="-4.00"
+          shape="10,90 150,90 150,270 20,270"/>
+    <poly id="quartier_plateau" type="district" color="241,229,205" fill="1" layer="-4.00"
+          shape="175,95 320,95 320,260 175,260"/>
+    <poly id="quartier_abobo" type="district" color="221,228,191" fill="1" layer="-4.00"
+          shape="205,275 355,275 355,405 195,405"/>
+    <poly id="quartier_marcory" type="district" color="223,206,192" fill="1" layer="-4.00"
+          shape="215,-28 360,-28 360,88 205,88"/>
+    <poly id="plateau_business_core" type="urban_core" color="216,200,170" fill="1" layer="-3.60"
+          shape="228,122 296,122 305,196 236,204"/>
+    <poly id="treichville_port" type="port" color="165,156,146" fill="1" layer="-3.60"
+          shape="285,4 356,6 356,64 298,70"/>
+    <poly id="banco_green_belt" type="forest" color="132,176,111" fill="1" layer="-3.60"
+          shape="6,64 92,62 112,112 94,178 30,190 8,152"/>
+    <poly id="abobo_dense_housing" type="urban_mix" color="210,214,165" fill="1" layer="-3.60"
+          shape="222,300 340,300 342,390 218,392"/>
+    <poly id="marcory_housing" type="urban_mix" color="211,188,176" fill="1" layer="-3.60"
+          shape="222,-10 348,-10 346,64 218,68"/>
+    <poly id="parc_yopougon" type="park" color="150,196,123" fill="1" layer="-3.00"
+          shape="75,225 125,225 134,255 85,262"/>
+    <poly id="parc_plateau" type="park" color="153,201,132" fill="1" layer="-3.00"
+          shape="285,205 325,204 332,236 288,238"/>
+    <poly id="esplanade_plateau" type="civic" color="230,220,196" fill="1" layer="-3.00"
+          shape="244,150 310,150 314,180 247,181"/>
+    <poly id="gare_sotra_forecourt" type="transport" color="219,192,145" fill="1" layer="-3.00"
+          shape="215,325 260,325 264,354 219,354"/>
+    <poly id="corridor_west_east" type="boulevard" color="197,184,164" fill="1" layer="-2.80"
+          shape="18,140 322,140 322,160 18,160"/>
+    <poly id="corridor_north_south_y" type="boulevard" color="192,180,160" fill="1" layer="-2.80"
+          shape="150,42 170,42 170,258 150,258"/>
+    <poly id="corridor_north_south_p" type="boulevard" color="192,180,160" fill="1" layer="-2.80"
+          shape="245,42 265,42 265,258 245,258"/>
+    <poly id="bridge_axis_hkb" type="bridge_axis" color="181,171,162" fill="1" layer="-2.70"
+          shape="318,140 534,92 538,108 320,156"/>
+    <poly id="bridge_axis_degaulle" type="bridge_axis" color="173,162,152" fill="1" layer="-2.70"
+          shape="318,146 536,196 534,214 314,162"/>
+    <poly id="ilot_hkb" type="bridge" color="187,171,149" fill="1" layer="-3.00"
+          shape="512,232 560,232 560,292 520,300"/>
+    <poly id="ilot_de_gaulle" type="bridge" color="176,155,139" fill="1" layer="-3.00"
+          shape="510,84 560,84 560,142 522,150"/>
+    <poly id="shoreline_east" type="shore" color="210,198,182" fill="1" layer="-4.20"
+          shape="430,112 560,154 560,174 458,148"/>
+    <poly id="shoreline_south" type="shore" color="212,201,184" fill="1" layer="-4.20"
+          shape="334,214 440,242 560,255 560,274 330,236"/>
+</additional>

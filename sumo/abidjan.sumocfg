@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-02-14T00:30:34.334494+00:00 by Eclipse SUMO GUI 1.26.0
+-->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="abidjan.net.xml"/>
+        <route-files value="routes_v3.rou.xml"/>
+        <additional-files value="labels.add.xml,landscape.add.xml"/>
+		
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+</sumoConfiguration>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+    <connection from="WY" to="YP" fromLane="0" toLane="0"/>
+    <connection from="WY" to="YP" fromLane="1" toLane="1"/>
+    <connection from="WY" to="YA" fromLane="0" toLane="0"/>
+    <connection from="WY" to="YM" fromLane="1" toLane="0"/>
+    <connection from="NY" to="YM" fromLane="0" toLane="0"/>
+    <connection from="NY" to="YP" fromLane="0" toLane="0"/>
+    <connection from="SY" to="YA" fromLane="0" toLane="0"/>
+    <connection from="SY" to="YP" fromLane="0" toLane="1"/>
+    <connection from="AY" to="YP" fromLane="0" toLane="0"/>
+    <connection from="AY" to="YM" fromLane="0" toLane="0"/>
+    <connection from="YP" to="PH" fromLane="0" toLane="0"/>
+    <connection from="YP" to="PH" fromLane="1" toLane="1"/>
+    <connection from="YP" to="PD" fromLane="0" toLane="0"/>
+    <connection from="YP" to="PD" fromLane="1" toLane="1"/>
+    <connection from="YP" to="PY" fromLane="0" toLane="0"/>
+    <connection from="YP" to="PY" fromLane="1" toLane="1"/>
+    <connection from="NP" to="PH" fromLane="0" toLane="0"/>
+    <connection from="NP" to="PY" fromLane="0" toLane="0"/>
+    <connection from="SP" to="PD" fromLane="0" toLane="0"/>
+    <connection from="SP" to="PY" fromLane="0" toLane="1"/>
+</connections>

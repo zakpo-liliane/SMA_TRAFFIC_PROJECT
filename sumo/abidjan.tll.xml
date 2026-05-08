@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tlLogics>
+    <tlLogic id="Yopougon" type="static" programID="0" offset="0">
+        <phase duration="25" state="GGGgrrrr"/>
+        <phase duration="4" state="yyyyrrrr"/>
+        <phase duration="25" state="rrrrGGGG"/>
+        <phase duration="4" state="rrrryyyy"/>
+    </tlLogic>
+    <tlLogic id="Plateau" type="static" programID="0" offset="8">
+        <phase duration="28" state="GGGGrrrr"/>
+        <phase duration="4" state="yyyyrrrr"/>
+        <phase duration="28" state="rrrrGGGG"/>
+        <phase duration="4" state="rrrryyyy"/>
+    </tlLogic>
+</tlLogics>

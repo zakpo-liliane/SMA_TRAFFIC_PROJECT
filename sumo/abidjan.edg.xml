@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <edge id="WY" from="WestEntry" to="Yopougon" numLanes="2" speed="13.89"/>
+    <edge id="NY" from="NorthY" to="Yopougon" numLanes="1" speed="13.89"/>
+    <edge id="SY" from="SouthY" to="Yopougon" numLanes="1" speed="13.89"/>
+    <edge id="YP" from="Yopougon" to="Plateau" numLanes="2" speed="13.89"/>
+    <edge id="YA" from="Yopougon" to="Abobo" numLanes="1" speed="13.89"/>
+    <edge id="YM" from="Yopougon" to="Marcory" numLanes="1" speed="13.89"/>
+    <edge id="AY" from="Abobo" to="Yopougon" numLanes="1" speed="13.89"/>
+    <edge id="PY" from="Plateau" to="Yopougon" numLanes="2" speed="13.89"/>
+    <edge id="NP" from="NorthP" to="Plateau" numLanes="1" speed="13.89"/>
+    <edge id="SP" from="SouthP" to="Plateau" numLanes="1" speed="13.89"/>
+    <edge id="PH" from="Plateau" to="Pont_HKB" numLanes="2" speed="13.89"/>
+    <edge id="PD" from="Plateau" to="Pont_De_Gaulle" numLanes="2" speed="13.89"/>
+</edges>

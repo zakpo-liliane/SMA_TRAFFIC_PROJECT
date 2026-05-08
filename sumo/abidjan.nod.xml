@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+    <node id="WestEntry" x="-320.0" y="0.0" type="priority"/>
+    <node id="NorthY" x="-180.0" y="140.0" type="priority"/>
+    <node id="SouthY" x="-180.0" y="-140.0" type="priority"/>
+    <node id="Yopougon" x="-180.0" y="0.0" type="traffic_light"/>
+    <node id="Plateau" x="0.0" y="0.0" type="traffic_light"/>
+    <node id="NorthP" x="0.0" y="140.0" type="priority"/>
+    <node id="SouthP" x="0.0" y="-140.0" type="priority"/>
+    <node id="Abobo" x="-40.0" y="180.0" type="priority"/>
+    <node id="Marcory" x="-40.0" y="-180.0" type="priority"/>
+    <node id="Pont_HKB" x="220.0" y="80.0" type="priority"/>
+    <node id="Pont_De_Gaulle" x="220.0" y="-80.0" type="priority"/>
+</nodes>

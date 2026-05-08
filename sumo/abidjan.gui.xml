@@ -1,0 +1,35 @@
+﻿<viewsettings>
+    <scheme name="abidjan_demo">
+        <background backgroundColor="232,238,238" showGrid="0" gridXSize="100.00" gridYSize="100.00"/>
+        <edges laneEdgeMode="0" scaleMode="0" laneShowBorders="1" showBikeMarkings="0" showLinkDecals="1" realisticLinkRules="0" showLinkRules="1" showRails="1" secondaryShape="0" hideConnectors="0" widthExaggeration="1.34" minSize="0.00" showDirection="1" showSublanes="0" spreadSuperposed="0" disableHideByZoom="0"
+               edgeName_show="0" edgeName_size="55.00" edgeName_color="orange" edgeName_bgColor="128,0,0,0" edgeName_constantSize="1" edgeName_onlySelected="0"
+               internalEdgeName_show="0" internalEdgeName_size="40.00" internalEdgeName_color="128,64,0" internalEdgeName_bgColor="128,0,0,0" internalEdgeName_constantSize="1" internalEdgeName_onlySelected="0"
+               cwaEdgeName_show="0" cwaEdgeName_size="50.00" cwaEdgeName_color="magenta" cwaEdgeName_bgColor="128,0,0,0" cwaEdgeName_constantSize="1" cwaEdgeName_onlySelected="0"
+               streetName_show="1" streetName_size="48.00" streetName_color="248,244,218" streetName_bgColor="150,24,35,48" streetName_constantSize="1" streetName_onlySelected="0"
+               edgeValue_show="0" edgeValue_size="90.00" edgeValue_color="cyan" edgeValue_bgColor="128,0,0,0" edgeValue_constantSize="1" edgeValue_onlySelected="0"
+               edgeScaleValue_show="0" edgeScaleValue_size="90.00" edgeScaleValue_color="blue" edgeScaleValue_bgColor="128,0,0,0" edgeScaleValue_constantSize="1" edgeScaleValue_onlySelected="0"/>
+        <vehicles vehicleQuality="2" minSize="1.70" constantSize="0" constantSizeSelected="0"
+                  vehicleName_show="0" vehicleName_size="45.00" vehicleName_color="204,153,0" vehicleName_bgColor="128,0,0,0" vehicleName_constantSize="1" vehicleName_onlySelected="0"/>
+        <junctions junctionMode="0"
+                   drawLinkTLIndex_show="0" drawLinkTLIndex_size="50.00" drawLinkTLIndex_color="128,128,255" drawLinkTLIndex_bgColor="128,0,0,0" drawLinkTLIndex_constantSize="1" drawLinkTLIndex_onlySelected="0"
+                   drawLinkJunctionIndex_show="0" drawLinkJunctionIndex_size="50.00" drawLinkJunctionIndex_color="128,128,255" drawLinkJunctionIndex_bgColor="128,0,0,0" drawLinkJunctionIndex_constantSize="1" drawLinkJunctionIndex_onlySelected="0"
+                   junctionID_show="0" junctionID_size="60.00" junctionID_color="0,255,128" junctionID_bgColor="128,0,0,0" junctionID_constantSize="1" junctionID_onlySelected="0"
+                   junctionName_show="1" junctionName_size="60.00" junctionName_color="0,90,200" junctionName_bgColor="220,255,255,255" junctionName_constantSize="1" junctionName_onlySelected="0"
+                   internalJunctionName_show="0" internalJunctionName_size="40.00" internalJunctionName_color="0,204,128" internalJunctionName_bgColor="128,0,0,0" internalJunctionName_constantSize="1" internalJunctionName_onlySelected="0"
+                   tlsPhaseIndex_show="0" tlsPhaseIndex_size="120.00" tlsPhaseIndex_color="yellow" tlsPhaseIndex_bgColor="128,0,0,0" tlsPhaseIndex_constantSize="1" tlsPhaseIndex_onlySelected="0"
+                   tlsPhaseName_show="0" tlsPhaseName_size="120.00" tlsPhaseName_color="orange" tlsPhaseName_bgColor="128,0,0,0" tlsPhaseName_constantSize="1" tlsPhaseName_onlySelected="0"
+                   showLane2Lane="0" drawShape="1" drawCrossingsAndWalkingareas="1" junction_minSize="1.00" junction_exaggeration="1.30" junction_constantSize="0" junction_constantSizeSelected="0"/>
+        <additionals addMode="0" add_minSize="1.00" add_exaggeration="2.80" add_constantSize="0" add_constantSizeSelected="0"
+                     addName_show="1" addName_size="55.00" addName_color="255,0,128" addName_bgColor="220,255,255,255" addName_constantSize="1" addName_onlySelected="0"
+                     addFullName_show="1" addFullName_size="55.00" addFullName_color="255,0,128" addFullName_bgColor="220,255,255,255" addFullName_constantSize="1" addFullName_onlySelected="0"/>
+        <pois poiTextParam="PARAM_TEXT" poi_minSize="0.00" poi_exaggeration="1.70" poi_constantSize="0" poi_constantSizeSelected="0" poiDetail="16"
+              poiName_show="1" poiName_size="60.00" poiName_color="black" poiName_bgColor="220,255,255,255" poiName_constantSize="1" poiName_onlySelected="0"
+              poiType_show="0" poiType_size="60.00" poiType_color="black" poiType_bgColor="128,0,0,0" poiType_constantSize="1" poiType_onlySelected="0"
+              poiText_show="0" poiText_size="80.00" poiText_color="140,0,255" poiText_bgColor="128,0,0,0" poiText_constantSize="1" poiText_onlySelected="0"
+              poiUseCustomLayer="0" poiCustomLayer="0.00"/>
+        <polys poly_minSize="0.00" poly_exaggeration="1.35" poly_constantSize="0" poly_constantSizeSelected="0"
+              polyName_show="0" polyName_size="45.00" polyName_color="255,0,128" polyName_bgColor="128,0,0,0" polyName_constantSize="1" polyName_onlySelected="0"
+              polyType_show="0" polyType_size="45.00" polyType_color="255,0,128" polyType_bgColor="128,0,0,0" polyType_constantSize="1" polyType_onlySelected="0"/>
+        <viewport x="250.00" y="180.00" zoom="700.00"/>
+    </scheme>
+</viewsettings>

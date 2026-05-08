@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-27T02:22:52.708513+00:00 by Eclipse SUMO netconvert 1.26.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="sumo\abidjan.nod.xml"/>
+        <edge-files value="sumo\abidjan.edg.xml"/>
+        <connection-files value="sumo\abidjan.con.xml"/>
+    </input>
+
+    <output>
+        <output-file value="sumo\abidjan.net.xml"/>
+    </output>
+
+</netconvertConfiguration>
+-->
+
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="320.00,180.00" convBoundary="0.00,0.00,540.00,360.00" origBoundary="-320.00,-180.00,220.00,180.00" projParameter="!"/>
+
+    <edge id=":Abobo_0" function="internal">
+        <lane id=":Abobo_0_0" index="0" speed="3.65" length="4.67" shape="281.26,359.02 281.37,360.46 280.98,361.26 280.11,361.44 278.74,360.98"/>
+    </edge>
+    <edge id=":Plateau_0" function="internal">
+        <lane id=":Plateau_0_0" index="0" speed="6.51" length="9.03" shape="318.40,190.40 318.05,187.95 317.00,186.20 315.25,185.15 312.80,184.80"/>
+    </edge>
+    <edge id=":Plateau_1" function="internal">
+        <lane id=":Plateau_1_0" index="0" speed="8.91" length="22.60" shape="318.40,190.40 319.29,183.68 321.94,179.62 326.37,178.22 332.58,179.47"/>
+    </edge>
+    <edge id=":Plateau_2" function="internal">
+        <lane id=":Plateau_2_0" index="0" speed="6.76" length="12.43" shape="321.60,168.03 322.22,170.55 324.07,171.84 327.16,171.90 331.48,170.72"/>
+    </edge>
+    <edge id=":Plateau_3" function="internal">
+        <lane id=":Plateau_3_0" index="0" speed="8.99" length="18.20" shape="321.60,168.03 321.05,173.96 319.40,178.21 316.65,180.75 312.80,181.60"/>
+    </edge>
+    <edge id=":Plateau_4" function="internal">
+        <lane id=":Plateau_4_0" index="0" speed="13.89" length="19.40" shape="312.80,175.20 318.50,174.96 322.36,174.19 326.11,172.80 331.48,170.72"/>
+    </edge>
+    <edge id=":Plateau_5" function="internal">
+        <lane id=":Plateau_5_0" index="0" speed="13.89" length="20.42" shape="312.80,175.20 318.79,175.39 322.91,176.05 326.93,177.36 332.58,179.47"/>
+    </edge>
+    <edge id=":Plateau_6" function="internal">
+        <lane id=":Plateau_6_0" index="0" speed="5.58" length="10.77" shape="312.80,175.20 316.40,177.60 317.60,180.00 316.40,182.40 315.50,183.00"/>
+    </edge>
+    <edge id=":Plateau_7" function="internal">
+        <lane id=":Plateau_7_0" index="0" speed="13.89" length="6.68" shape="312.80,178.40 318.79,178.15 319.46,178.02"/>
+    </edge>
+    <edge id=":Plateau_8" function="internal">
+        <lane id=":Plateau_8_0" index="0" speed="13.89" length="19.30" shape="312.80,178.40 318.49,178.58 322.36,179.21 326.12,180.46 331.48,182.47"/>
+    </edge>
+    <edge id=":Plateau_9" function="internal">
+        <lane id=":Plateau_9_0" index="0" speed="3.65" length="2.34" shape="312.80,178.40 314.00,179.20 314.40,180.00"/>
+    </edge>
+    <edge id=":Plateau_10" function="internal">
+        <lane id=":Plateau_10_0" index="0" speed="5.58" length="3.25" shape="315.50,183.00 312.80,184.80"/>
+    </edge>
+    <edge id=":Plateau_11" function="internal">
+        <lane id=":Plateau_11_0" index="0" speed="13.89" length="13.84" shape="319.46,178.02 322.91,177.34 326.93,175.90 332.58,173.72"/>
+    </edge>
+    <edge id=":Plateau_12" function="internal">
+        <lane id=":Plateau_12_0" index="0" speed="3.65" length="2.34" shape="314.40,180.00 314.00,180.80 312.80,181.60"/>
+    </edge>
+    <edge id=":Yopougon_0" function="internal">
+        <lane id=":Yopougon_0_0" index="0" speed="13.89" length="22.58" shape="138.40,189.21 139.30,184.42 141.51,178.46 144.29,172.70 146.92,168.50"/>
+    </edge>
+    <edge id=":Yopougon_1" function="internal">
+        <lane id=":Yopougon_1_0" index="0" speed="10.07" length="23.10" shape="138.40,189.21 139.31,183.08 142.06,178.70 146.63,176.08 153.03,175.20"/>
+    </edge>
+    <edge id=":Yopougon_2" function="internal">
+        <lane id=":Yopougon_2_0" index="0" speed="11.83" length="26.13" shape="147.70,192.50 144.00,186.31 142.64,180.25 143.61,174.31 146.92,168.50"/>
+    </edge>
+    <edge id=":Yopougon_3" function="internal">
+        <lane id=":Yopougon_3_0" index="0" speed="8.37" length="23.54" shape="147.70,192.50 144.51,186.45 144.28,180.87 147.09,176.79 153.03,175.20"/>
+    </edge>
+    <edge id=":Yopougon_4" function="internal">
+        <lane id=":Yopougon_4_0" index="0" speed="5.54" length="9.44" shape="153.03,184.80 150.13,185.16 148.69,186.23 148.73,188.03 150.22,190.54"/>
+    </edge>
+    <edge id=":Yopougon_5" function="internal">
+        <lane id=":Yopougon_5_0" index="0" speed="8.00" length="21.35" shape="153.03,181.60 146.54,180.78 143.35,178.32 143.48,174.23 146.92,168.50"/>
+    </edge>
+    <edge id=":Yopougon_6" function="internal">
+        <lane id=":Yopougon_6_0" index="0" speed="3.65" length="4.67" shape="153.03,181.60 151.83,180.80 151.43,180.00 151.83,179.20 153.03,178.40"/>
+    </edge>
+    <edge id=":Yopougon_7" function="internal">
+        <lane id=":Yopougon_7_0" index="0" speed="9.10" length="18.67" shape="141.60,166.67 142.31,171.80 144.46,175.47 148.03,177.67 153.03,178.40"/>
+    </edge>
+    <edge id=":Yopougon_8" function="internal">
+        <lane id=":Yopougon_8_0" index="0" speed="13.89" length="25.55" shape="141.60,166.67 142.52,171.96 144.76,179.00 147.58,185.85 150.22,190.54"/>
+    </edge>
+    <edge id=":Yopougon_9" function="internal">
+        <lane id=":Yopougon_9_0" index="0" speed="13.89" length="20.23" shape="132.80,175.20 153.03,175.20"/>
+    </edge>
+    <edge id=":Yopougon_10" function="internal">
+        <lane id=":Yopougon_10_0" index="0" speed="13.89" length="23.65" shape="132.80,175.20 135.95,176.16 139.90,179.03 144.66,183.83 150.22,190.54"/>
+    </edge>
+    <edge id=":Yopougon_11" function="internal">
+        <lane id=":Yopougon_11_0" index="0" speed="12.46" length="3.47" shape="132.80,178.40 136.09,177.78 136.19,177.72"/>
+    </edge>
+    <edge id=":Yopougon_12" function="internal">
+        <lane id=":Yopougon_12_0" index="0" speed="13.89" length="20.23" shape="132.80,178.40 153.03,178.40"/>
+    </edge>
+    <edge id=":Yopougon_13" function="internal">
+        <lane id=":Yopougon_13_0" index="0" speed="12.46" length="14.30" shape="136.19,177.72 139.54,175.92 143.15,172.83 146.92,168.50"/>
+    </edge>
+
+    <edge id="AY" from="Abobo" to="Yopougon" priority="-1">
+        <lane id="AY_0" index="0" speed="13.89" length="213.44" shape="278.74,360.98 147.70,192.50"/>
+    </edge>
+    <edge id="NP" from="NorthP" to="Plateau" priority="-1">
+        <lane id="NP_0" index="0" speed="13.89" length="129.60" shape="318.40,320.00 318.40,190.40"/>
+    </edge>
+    <edge id="NY" from="NorthY" to="Yopougon" priority="-1">
+        <lane id="NY_0" index="0" speed="13.89" length="130.79" shape="138.40,320.00 138.40,189.21"/>
+    </edge>
+    <edge id="PD" from="Plateau" to="Pont_De_Gaulle" priority="-1">
+        <lane id="PD_0" index="0" speed="13.89" length="220.13" shape="331.48,170.72 538.36,95.49"/>
+        <lane id="PD_1" index="1" speed="13.89" length="220.13" shape="332.58,173.72 539.45,98.50"/>
+    </edge>
+    <edge id="PH" from="Plateau" to="Pont_HKB" priority="-1">
+        <lane id="PH_0" index="0" speed="13.89" length="222.46" shape="332.58,179.47 541.64,255.49"/>
+        <lane id="PH_1" index="1" speed="13.89" length="222.46" shape="331.48,182.47 540.55,258.50"/>
+    </edge>
+    <edge id="PY" from="Plateau" to="Yopougon" priority="-1">
+        <lane id="PY_0" index="0" speed="13.89" length="159.77" shape="312.80,184.80 153.03,184.80"/>
+        <lane id="PY_1" index="1" speed="13.89" length="159.77" shape="312.80,181.60 153.03,181.60"/>
+    </edge>
+    <edge id="SP" from="SouthP" to="Plateau" priority="-1">
+        <lane id="SP_0" index="0" speed="13.89" length="128.03" shape="321.60,40.00 321.60,168.03"/>
+    </edge>
+    <edge id="SY" from="SouthY" to="Yopougon" priority="-1">
+        <lane id="SY_0" index="0" speed="13.89" length="126.67" shape="141.60,40.00 141.60,166.67"/>
+    </edge>
+    <edge id="WY" from="WestEntry" to="Yopougon" priority="-1">
+        <lane id="WY_0" index="0" speed="13.89" length="132.80" shape="0.00,175.20 132.80,175.20"/>
+        <lane id="WY_1" index="1" speed="13.89" length="132.80" shape="0.00,178.40 132.80,178.40"/>
+    </edge>
+    <edge id="YA" from="Yopougon" to="Abobo" priority="-1">
+        <lane id="YA_0" index="0" speed="13.89" length="213.44" shape="150.22,190.54 281.26,359.02"/>
+    </edge>
+    <edge id="YM" from="Yopougon" to="Marcory" priority="-1">
+        <lane id="YM_0" index="0" speed="13.89" length="214.71" shape="146.92,168.50 278.74,-0.98"/>
+    </edge>
+    <edge id="YP" from="Yopougon" to="Plateau" priority="-1">
+        <lane id="YP_0" index="0" speed="13.89" length="159.77" shape="153.03,175.20 312.80,175.20"/>
+        <lane id="YP_1" index="1" speed="13.89" length="159.77" shape="153.03,178.40 312.80,178.40"/>
+    </edge>
+
+    <tlLogic id="Plateau" type="static" programID="0" offset="0">
+        <phase duration="42" state="GGGgrrrrrr"/>
+        <phase duration="3"  state="Gyyyrrrrrr"/>
+        <phase duration="42" state="GrrrGGggGg"/>
+        <phase duration="3"  state="Grrryyyyyy"/>
+    </tlLogic>
+    <tlLogic id="Yopougon" type="static" programID="0" offset="0">
+        <phase duration="15" state="rrrrrrrrrGggG"/>
+        <phase duration="3"  state="rrrrrrrrryyyy"/>
+        <phase duration="15" state="rrrrGGGrrrrrr"/>
+        <phase duration="3"  state="rrrrGyyrrrrrr"/>
+        <phase duration="15" state="GGrrGrrrrrrrr"/>
+        <phase duration="3"  state="yyrryrrrrrrrr"/>
+        <phase duration="15" state="rrrrrrrGGrrrr"/>
+        <phase duration="3"  state="rrrrrrryyrrrr"/>
+        <phase duration="15" state="rrGGGrrrrrrrr"/>
+        <phase duration="3"  state="rryyyrrrrrrrr"/>
+    </tlLogic>
+
+    <junction id="Abobo" type="priority" x="280.00" y="360.00" incLanes="YA_0" intLanes=":Abobo_0_0" shape="280.00,360.00 282.53,358.04 280.00,360.00">
+        <request index="0" response="0" foes="0" cont="0"/>
+    </junction>
+    <junction id="Marcory" type="dead_end" x="280.00" y="0.00" incLanes="YM_0" intLanes="" shape="277.47,-1.96 280.00,0.00"/>
+    <junction id="NorthP" type="dead_end" x="320.00" y="320.00" incLanes="" intLanes="" shape="320.00,320.00 316.80,320.00"/>
+    <junction id="NorthY" type="dead_end" x="140.00" y="320.00" incLanes="" intLanes="" shape="140.00,320.00 136.80,320.00"/>
+    <junction id="Plateau" type="traffic_light" x="320.00" y="180.00" incLanes="NP_0 SP_0 YP_0 YP_1" intLanes=":Plateau_0_0 :Plateau_1_0 :Plateau_2_0 :Plateau_3_0 :Plateau_4_0 :Plateau_5_0 :Plateau_10_0 :Plateau_11_0 :Plateau_8_0 :Plateau_12_0" shape="316.80,190.40 320.00,190.40 320.30,187.33 321.22,185.06 322.73,183.59 324.86,182.92 327.59,183.05 330.94,183.98 333.12,177.96 331.45,177.05 331.24,176.59 331.45,176.14 332.08,175.68 333.12,175.23 330.94,169.21 328.57,169.96 326.64,170.33 325.13,170.32 324.06,169.94 323.41,169.17 323.20,168.03 320.00,168.03 319.20,171.12 318.20,172.21 316.80,172.98 315.00,173.45 312.80,173.60 312.80,186.40 315.02,186.84 315.80,187.40 316.36,188.18 316.69,189.18">
+        <request index="0" response="0000000000" foes="1001000000" cont="0"/>
+        <request index="1" response="0000000000" foes="0100100000" cont="0"/>
+        <request index="2" response="0000000000" foes="0010010000" cont="0"/>
+        <request index="3" response="0010000000" foes="1111110000" cont="0"/>
+        <request index="4" response="0000001100" foes="0000001100" cont="0"/>
+        <request index="5" response="0000001010" foes="0010001010" cont="0"/>
+        <request index="6" response="0000001001" foes="0000001001" cont="1"/>
+        <request index="7" response="0000101100" foes="0000101100" cont="1"/>
+        <request index="8" response="0000001010" foes="0000001010" cont="0"/>
+        <request index="9" response="0000001001" foes="0000001001" cont="1"/>
+    </junction>
+    <junction id="Pont_De_Gaulle" type="dead_end" x="540.00" y="100.00" incLanes="PD_0 PD_1" intLanes="" shape="537.81,93.99 540.00,100.00"/>
+    <junction id="Pont_HKB" type="dead_end" x="540.00" y="260.00" incLanes="PH_0 PH_1" intLanes="" shape="542.19,253.99 540.00,260.00"/>
+    <junction id="SouthP" type="dead_end" x="320.00" y="40.00" incLanes="" intLanes="" shape="320.00,40.00 323.20,40.00"/>
+    <junction id="SouthY" type="dead_end" x="140.00" y="40.00" incLanes="" intLanes="" shape="140.00,40.00 143.20,40.00"/>
+    <junction id="WestEntry" type="dead_end" x="0.00" y="180.00" incLanes="" intLanes="" shape="0.00,180.00 0.00,173.60"/>
+    <junction id="Yopougon" type="traffic_light" x="140.00" y="180.00" incLanes="NY_0 AY_0 PY_0 PY_1 SY_0 WY_0 WY_1" intLanes=":Yopougon_0_0 :Yopougon_1_0 :Yopougon_2_0 :Yopougon_3_0 :Yopougon_4_0 :Yopougon_5_0 :Yopougon_6_0 :Yopougon_7_0 :Yopougon_8_0 :Yopougon_9_0 :Yopougon_10_0 :Yopougon_13_0 :Yopougon_12_0" shape="136.80,189.21 140.00,189.21 140.72,187.91 141.61,188.28 142.86,189.33 144.47,191.07 146.44,193.49 151.49,189.56 150.57,187.80 150.65,187.19 151.08,186.75 151.88,186.49 153.03,186.40 153.03,173.60 150.66,173.49 148.91,173.14 147.79,172.57 147.30,171.77 147.43,170.74 148.18,169.48 145.66,167.52 144.29,168.83 143.81,168.88 143.47,168.54 143.27,167.81 143.20,166.67 140.00,166.67 139.80,168.79 139.20,170.52 138.20,171.87 136.80,172.83 135.00,173.41 132.80,173.60 132.80,180.00 135.02,181.02 135.80,182.30 136.36,184.09 136.69,186.40">
+        <request index="0"  response="1111100100000" foes="1111110100100" cont="0"/>
+        <request index="1"  response="1011110100000" foes="1011110101100" cont="0"/>
+        <request index="2"  response="1111110100011" foes="1111110100011" cont="0"/>
+        <request index="3"  response="1011110100010" foes="1011110100010" cont="0"/>
+        <request index="4"  response="0000000000000" foes="0010100000000" cont="0"/>
+        <request index="5"  response="1101000000000" foes="1101010001111" cont="0"/>
+        <request index="6"  response="1001010000000" foes="1001010000000" cont="0"/>
+        <request index="7"  response="1101000100001" foes="1101001101111" cont="0"/>
+        <request index="8"  response="1111000010000" foes="1111000011111" cont="0"/>
+        <request index="9"  response="0000000000000" foes="0100111101111" cont="0"/>
+        <request index="10" response="1000000010000" foes="1100100011111" cont="0"/>
+        <request index="11" response="0011000000000" foes="0011110100101" cont="1"/>
+        <request index="12" response="0000000000000" foes="0010111101111" cont="0"/>
+    </junction>
+
+    <junction id=":Plateau_10_0" type="internal" x="315.50" y="183.00" incLanes=":Plateau_6_0 NP_0 SP_0" intLanes=":Plateau_0_0 :Plateau_3_0"/>
+    <junction id=":Plateau_11_0" type="internal" x="319.46" y="178.02" incLanes=":Plateau_7_0 YP_0" intLanes=":Plateau_2_0 :Plateau_3_0 :Plateau_5_0"/>
+    <junction id=":Plateau_12_0" type="internal" x="314.40" y="180.00" incLanes=":Plateau_9_0 NP_0 SP_0" intLanes=":Plateau_0_0 :Plateau_3_0"/>
+    <junction id=":Yopougon_13_0" type="internal" x="136.19" y="177.72" incLanes=":Yopougon_11_0 WY_0" intLanes=":Yopougon_0_0 :Yopougon_2_0 :Yopougon_5_0 :Yopougon_7_0 :Yopougon_8_0 :Yopougon_9_0 :Yopougon_10_0"/>
+
+    <connection from="AY" to="YM" fromLane="0" toLane="0" via=":Yopougon_2_0" tl="Yopougon" linkIndex="2" dir="L" state="o"/>
+    <connection from="AY" to="YP" fromLane="0" toLane="0" via=":Yopougon_3_0" tl="Yopougon" linkIndex="3" dir="l" state="o"/>
+    <connection from="NP" to="PY" fromLane="0" toLane="0" via=":Plateau_0_0" tl="Plateau" linkIndex="0" dir="r" state="O"/>
+    <connection from="NP" to="PH" fromLane="0" toLane="0" via=":Plateau_1_0" tl="Plateau" linkIndex="1" dir="l" state="O"/>
+    <connection from="NY" to="YM" fromLane="0" toLane="0" via=":Yopougon_0_0" tl="Yopougon" linkIndex="0" dir="s" state="o"/>
+    <connection from="NY" to="YP" fromLane="0" toLane="0" via=":Yopougon_1_0" tl="Yopougon" linkIndex="1" dir="L" state="o"/>
+    <connection from="PY" to="YA" fromLane="0" toLane="0" via=":Yopougon_4_0" tl="Yopougon" linkIndex="4" dir="r" state="O"/>
+    <connection from="PY" to="YM" fromLane="1" toLane="0" via=":Yopougon_5_0" tl="Yopougon" linkIndex="5" dir="l" state="o"/>
+    <connection from="PY" to="YP" fromLane="1" toLane="1" via=":Yopougon_6_0" tl="Yopougon" linkIndex="6" dir="t" state="o"/>
+    <connection from="SP" to="PD" fromLane="0" toLane="0" via=":Plateau_2_0" tl="Plateau" linkIndex="2" dir="r" state="O"/>
+    <connection from="SP" to="PY" fromLane="0" toLane="1" via=":Plateau_3_0" tl="Plateau" linkIndex="3" dir="l" state="o"/>
+    <connection from="SY" to="YP" fromLane="0" toLane="1" via=":Yopougon_7_0" tl="Yopougon" linkIndex="7" dir="R" state="o"/>
+    <connection from="SY" to="YA" fromLane="0" toLane="0" via=":Yopougon_8_0" tl="Yopougon" linkIndex="8" dir="s" state="o"/>
+    <connection from="WY" to="YP" fromLane="0" toLane="0" via=":Yopougon_9_0" tl="Yopougon" linkIndex="9" dir="s" state="O"/>
+    <connection from="WY" to="YA" fromLane="0" toLane="0" via=":Yopougon_10_0" tl="Yopougon" linkIndex="10" dir="l" state="o"/>
+    <connection from="WY" to="YM" fromLane="1" toLane="0" via=":Yopougon_11_0" tl="Yopougon" linkIndex="11" dir="r" state="o"/>
+    <connection from="WY" to="YP" fromLane="1" toLane="1" via=":Yopougon_12_0" tl="Yopougon" linkIndex="12" dir="s" state="O"/>
+    <connection from="YA" to="AY" fromLane="0" toLane="0" via=":Abobo_0_0" dir="t" state="M"/>
+    <connection from="YP" to="PD" fromLane="0" toLane="0" via=":Plateau_4_0" tl="Plateau" linkIndex="4" dir="R" state="o"/>
+    <connection from="YP" to="PH" fromLane="0" toLane="0" via=":Plateau_5_0" tl="Plateau" linkIndex="5" dir="s" state="o"/>
+    <connection from="YP" to="PY" fromLane="0" toLane="0" via=":Plateau_6_0" tl="Plateau" linkIndex="6" dir="t" state="o"/>
+    <connection from="YP" to="PD" fromLane="1" toLane="1" via=":Plateau_7_0" tl="Plateau" linkIndex="7" dir="R" state="o"/>
+    <connection from="YP" to="PH" fromLane="1" toLane="1" via=":Plateau_8_0" tl="Plateau" linkIndex="8" dir="s" state="o"/>
+    <connection from="YP" to="PY" fromLane="1" toLane="1" via=":Plateau_9_0" tl="Plateau" linkIndex="9" dir="t" state="o"/>
+
+    <connection from=":Abobo_0" to="AY" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":Plateau_0" to="PY" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Plateau_1" to="PH" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":Plateau_2" to="PD" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Plateau_3" to="PY" fromLane="0" toLane="1" dir="l" state="M"/>
+    <connection from=":Plateau_4" to="PD" fromLane="0" toLane="0" dir="R" state="M"/>
+    <connection from=":Plateau_5" to="PH" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Plateau_6" to="PY" fromLane="0" toLane="0" via=":Plateau_10_0" dir="t" state="m"/>
+    <connection from=":Plateau_10" to="PY" fromLane="0" toLane="0" dir="t" state="M"/>
+    <connection from=":Plateau_7" to="PD" fromLane="0" toLane="1" via=":Plateau_11_0" dir="R" state="m"/>
+    <connection from=":Plateau_11" to="PD" fromLane="0" toLane="1" dir="R" state="M"/>
+    <connection from=":Plateau_8" to="PH" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":Plateau_9" to="PY" fromLane="0" toLane="1" via=":Plateau_12_0" dir="t" state="m"/>
+    <connection from=":Plateau_12" to="PY" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":Yopougon_0" to="YM" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Yopougon_1" to="YP" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":Yopougon_2" to="YM" fromLane="0" toLane="0" dir="L" state="M"/>
+    <connection from=":Yopougon_3" to="YP" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":Yopougon_4" to="YA" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Yopougon_5" to="YM" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":Yopougon_6" to="YP" fromLane="0" toLane="1" dir="t" state="M"/>
+    <connection from=":Yopougon_7" to="YP" fromLane="0" toLane="1" dir="R" state="M"/>
+    <connection from=":Yopougon_8" to="YA" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Yopougon_9" to="YP" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":Yopougon_10" to="YA" fromLane="0" toLane="0" dir="l" state="M"/>
+    <connection from=":Yopougon_11" to="YM" fromLane="0" toLane="0" via=":Yopougon_13_0" dir="r" state="m"/>
+    <connection from=":Yopougon_13" to="YM" fromLane="0" toLane="0" dir="r" state="M"/>
+    <connection from=":Yopougon_12" to="YP" fromLane="0" toLane="1" dir="s" state="M"/>
+
+</net>
