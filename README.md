@@ -1,45 +1,70 @@
 # Systeme Multi-Agent de Regulation du Trafic
 
-Ce projet simule une regulation de trafic inspiree d'un cahier des charges SMA pour Abidjan.
-La boucle principale repose sur SUMO, des agents de type `Intersection`, `Vehicle` et `Crisis`,
-une communication `ACLMessage`, des KPI exportes en CSV et un stockage PostgreSQL optionnel.
+Ce projet simule une regulation du trafic routier pour Abidjan a l'aide d'un systeme multi-agent connecte a SUMO. La simulation combine des agents de carrefour, de vehicule et de gestion de crise, avec export des indicateurs en CSV et stockage PostgreSQL optionnel.
 
-## Exigences couvertes
+## Vue d'ensemble
 
-- SUMO comme moteur de simulation.
-- Agents `Intersection`, `Vehicle` et `Crisis`.
-- Structure BDI legere: `beliefs`, `desires`, `intentions`.
-- Echanges inter-agents via `ACLMessage` et `MessageBus`.
-- Optimisation locale des feux via Q-Learning.
-- Routage initial et dynamique des vehicules via Dijkstra.
-- Coordination locale type green wave et aide Contract Net.
-- Scenarios `heure de pointe` et `incident sur Pont De Gaulle`.
-- KPI exportes: temps d'attente moyen, longueur moyenne des files, temps de trajet moyen, messages echanges.
-- Historisation PostgreSQL: metriques, messages, evenements de scenario, etats d'agents.
+- Simulation de trafic basee sur SUMO et `traci`
+- Agents `Intersection`, `Vehicle` et `Crisis`
+- Structure BDI legere avec `beliefs`, `desires` et `intentions`
+- Communication inter-agents via `ACLMessage` et `MessageBus`
+- Optimisation locale des feux via Q-Learning
+- Routage initial et dynamique via Dijkstra
+- Coordination locale de type green wave et Contract Net
+- Scenarios inclus: heure de pointe et incident sur le Pont De Gaulle
+- Export des KPI en CSV
+- Journalisation PostgreSQL facultative
 
-## Lancer le projet
+## Structure du projet
 
-Prerequis:
+- `agents/`: logique des agents et comportements
+- `communication/`: messages ACL et bus de communication
+- `coordination/`: mecanismes de coordination entre intersections
+- `core/`: gestion de la simulation
+- `database/`: journalisation PostgreSQL
+- `environment/`: generation de trafic
+- `metrics/` et `evaluation/`: collecte et exploitation des KPI
+- `routing/`: calcul et mise a jour des trajets
+- `scenarios/`: perturbations et cas de test
+- `sumo/`: reseau, routes et configuration SUMO
 
-- SUMO installe et `SUMO_HOME` configure.
-- Python avec `traci`, `psycopg2`, `networkx`, `matplotlib`.
-- PostgreSQL facultatif. Sans base disponible, la simulation continue quand meme.
-- Variables d'environnement possibles: `TRAFFIC_DB_HOST`, `TRAFFIC_DB_PORT`, `TRAFFIC_DB_NAME`, `TRAFFIC_DB_USER`, `TRAFFIC_DB_PASSWORD`.
+## Prerequis
 
-Execution:
+- Python 3
+- SUMO installe
+- Variable d'environnement `SUMO_HOME` configuree
+- Dependances Python:
+  - `traci`
+  - `psycopg2`
+  - `networkx`
+  - `matplotlib`
+- PostgreSQL optionnel
+
+## Lancement
+
+Execution headless:
 
 ```bash
 python run.py
 ```
-La duree de demonstration par defaut est de 300 steps pour garder une execution fluide.
 
-Interface de pilotage desktop :
+Execution via le point d'entree principal:
+
+```bash
+python main.py
+```
+
+Execution avec interface desktop:
 
 ```bash
 python dashboard.py
 ```
 
-Exemple de configuration PostgreSQL sous PowerShell avant execution:
+La simulation utilise par defaut `300` steps.
+
+## Exemple de configuration PostgreSQL
+
+Sous PowerShell:
 
 ```powershell
 $env:TRAFFIC_DB_HOST="localhost"
@@ -50,7 +75,9 @@ $env:TRAFFIC_DB_PASSWORD="postgres"
 python run.py
 ```
 
-Pour utiliser l'interface graphique SUMO:
+Si PostgreSQL n'est pas disponible, la simulation continue sans journalisation en base.
+
+## Lancer SUMO GUI depuis Python
 
 ```python
 from core.simulation_manager import SimulationManager
@@ -60,23 +87,22 @@ sim.start()
 sim.run()
 ```
 
-## Sorties
+## Sorties generees
 
 - Log SUMO: `logs/sumo.log`
 - Resultats CSV: `results/simulation.csv`
-- Visualisation: `python plot.py`
-- Interface SUMO lisible: labels des carrefours et repères visibles dans `main_sma.py`
+- Visualisation des KPI: `python plot.py`
+
+## Fichiers utiles
+
+- `main.py`: execution headless simple
+- `main_sma.py`: execution avec SUMO GUI
+- `run.py`: lancement headless rapide
+- `plot.py`: affichage des KPI exportes
+- `dashboard.py`: centre de controle graphique avec suivi des logs, KPI, lecture PostgreSQL et supervision visuelle
+- `Query Tool.sql`: schema SQL correspondant aux journaux produits
 
 ## Limites actuelles
 
-- Le reseau SUMO fourni est compact et ne represente pas toute la topologie d'Abidjan.
-- La coordination multi-intersections est pleinement exploitee seulement si plusieurs feux sont presents dans le reseau.
-
-## Fichiers utilitaires
-
-- `main.py`: execution headless.
-- `main_sma.py`: execution avec SUMO GUI.
-- `plot.py`: affichage des KPI exportes.
-- `dashboard.py`: centre de controle graphique pour lancer la simulation, suivre les logs, lire les KPI et verifier PostgreSQL.
-  Il inclut aussi une vue SQL recente, des jauges KPI, une carte live des zones colorees selon la congestion, des alertes rouge/orange/vert et des raccourcis pour ouvrir SUMO GUI, le CSV et le log.
-- `Query Tool.sql`: schema PostgreSQL correspondant aux journaux produits.
+- Le reseau SUMO fourni reste compact et ne couvre pas toute la topologie d'Abidjan
+- La coordination multi-intersections est surtout visible si plusieurs feux sont actifs dans le reseau
