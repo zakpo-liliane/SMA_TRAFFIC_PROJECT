@@ -102,6 +102,11 @@ sim.run()
 - `dashboard.py`: centre de controle graphique avec suivi des logs, KPI, lecture PostgreSQL et supervision visuelle
 - `Query Tool.sql`: schema SQL correspondant aux journaux produits
 
+## Auteurs
+
+- Zakpo Liliane
+- Bamba Mariam: `tchewamariam@gmail.com`
+
 ## Limites actuelles
 
 - Le reseau SUMO fourni reste compact et ne couvre pas toute la topologie d'Abidjan
